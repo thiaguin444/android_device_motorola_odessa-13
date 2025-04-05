@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_odessa.mk
+    $(LOCAL_DIR)/lineage_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_odessa-eng \
-    arrow_odessa-user \
-    arrow_odessa-userdebug
+    lineage_odessa-eng \
+    lineage_odessa-user \
+    lineage_odessa-userdebug
