@@ -10,6 +10,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_hide_display_cutout=true
 
+# Chipset
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=QTI \
+    ro.soc.model=SM7150
+
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.sf.color_mode=0
