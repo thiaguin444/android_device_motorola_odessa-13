@@ -30,7 +30,7 @@ TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # ArrowOS flags
-
+ARROW_GAPPS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_odessa
